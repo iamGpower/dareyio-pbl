@@ -3,18 +3,22 @@
 ```bash
 sudo apt update -y && sudo apt upgrade -y
 ```
-	![[Pasted image 20230319103116.png]]
+
+    ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319103116.png)
 
 ```bash
 sudo apt -y install curl dirmngr apt-transport-https lsb-release ca-certificates
 ```
-* ![[Pasted image 20230319103509.png]]
+
+#### ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319103509.png)
+
 ```bash
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
 ```
-![[Pasted image 20230319113335.png]]
-![[Pasted image 20230319113545.png]]
+
+![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319113335.png)
+![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319113545.png)
 
 #### installing MongoDB
 
@@ -28,36 +32,46 @@ echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/
 
 ```
 
-	![[Pasted image 20230319120412.png]]
+    ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319120412.png)
+
 ```bash
 sudo apt install -y mongodb
 
 ```
 
-	![[Pasted image 20230319120725.png]]
+    ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319120725.png)
 
-* start the mongo server 
+#### start the mongo server
+
 ```bash
 sudo systemctl start mongodb.service
 ```
-	![[Pasted image 20230319120834.png]]
-	![[Pasted image 20230319121349.png]]
-	![[Pasted image 20230319155154.png]]
 
- * install other required dependencies
-	![[Pasted image 20230319155220.png]]
-	![[Pasted image 20230319155425.png]]
+    ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319120834.png)
+    ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319121349.png)
+    ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319155154.png)
 
-	![[Pasted image 20230320043809.png]]
+#### install other required dependencies
 
-* app tested on port 3300
-	![[Pasted image 20230320043444.png]]
+![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319155220.png)
+![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319155425.png)
 
-* app working on cli
-![[Pasted image 20230320043706.png]]
+![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230320043809.png)
+
+#### app tested on port 3300
+
+![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230320043444.png)
+
+#### app working on cli
+
+![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230320043706.png)
 
 #### important point to note
-* The app needed `NodeJS version 14` and above to run due to some unsupported newer syntax
-	![[Pasted image 20230320044254.png]]
-* There are some mongoose function that no longer support call back and hence the need to use `async await` promised based syntax
-	![[Pasted image 20230320044158.png]]
+
+#### The app needed `NodeJS version 14` and above to run due to some unsupported newer syntax
+
+![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230320044254.png)
+
+#### There are some mongoose function that no longer support call back and hence the need to use `async await` promised based syntax
+
+![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230320044158.png)
