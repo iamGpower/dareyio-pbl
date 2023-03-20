@@ -35,6 +35,7 @@ sudo apt install -y mongodb
 ```
 
 	![[Pasted image 20230319120725.png]]
+
 * start the mongo server 
 ```bash
 sudo systemctl start mongodb.service
@@ -42,7 +43,7 @@ sudo systemctl start mongodb.service
 	![[Pasted image 20230319120834.png]]
 	![[Pasted image 20230319121349.png]]
 	![[Pasted image 20230319155154.png]]
-	
+
  * install other required dependencies
 	![[Pasted image 20230319155220.png]]
 	![[Pasted image 20230319155425.png]]
@@ -51,6 +52,7 @@ sudo systemctl start mongodb.service
 
 * app tested on port 3300
 	![[Pasted image 20230320043444.png]]
+
 * app working on cli
 ![[Pasted image 20230320043706.png]]
 

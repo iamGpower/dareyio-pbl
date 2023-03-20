@@ -109,20 +109,25 @@ module.exports = router;
 
 * testing `DELETE` method api via postman using raw json data 
 	![[Pasted image 20230319053040.png]]
+
 * install client side dependencies and proxy config
 	![[Pasted image 20230319101003.png]]
+
 * installing `concurrently and nodemon` as dev dependencies
 	![[Pasted image 20230319054724.png]]
 ![[Pasted image 20230319054906.png]]
 
 * running dev script using concurrently
+
 	![[Pasted image 20230319060408.png]]
 ![[Pasted image 20230319060738.png]]
 ![[Pasted image 20230319061045.png]]
 * install `axios http lib`
+
 	![[Pasted image 20230319080536.png]]
 
 * firewall config to allow traffic to `port 3000`
+
 	![[Pasted image 20230319101707.png]]
 
 * testing front-end app on `port 3000`

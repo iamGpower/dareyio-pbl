@@ -3,23 +3,24 @@
 #### update list of packages in package manager
 	`sudo apt update`
 
-	![[Pasted image 20230317092840.png]]
-#### install Apache Webserver using the package manager
+![server machine update](./.attachments/Pasted_image_20230317092840.png)
+
+#### install Apache Web server using the package manager
 	`sudo apt install apache2`
 
-	![[Pasted image 20230317093249.png]]
+![](./attachments/Pasted_image_20230317093249.png)
 
-#### verify apache2 is running as a service
+#### verify Apache is running as a service
 	`sudo systemctl status apache2`
 
-	![[Pasted image 20230317093640.png]]
+![](./attachments/Pasted_image_20230317093640.png)
 
 #### instance firewall configured to allow `tcp traffic` on `port 80`
-* this firewall configuration allow incoming traffic from the internet to our webserver listening on `port 80`
+* this firewall configuration allow incoming traffic from the internet to our web server listening on `port 80`
 
-![[Pasted image 20230317094252.png]]
+![](./attachments/Pasted_image_20230317094252.png)
 
-* using the `curl` command to test connection to our webserver
+* using the `curl` command to test connection to our web-server
 	`curl http://localhost:80`
 	
 	![[Pasted image 20230317094928.png]]
