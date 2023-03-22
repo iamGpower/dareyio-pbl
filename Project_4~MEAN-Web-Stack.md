@@ -4,7 +4,7 @@
 sudo apt update -y && sudo apt upgrade -y
 ```
 
-    ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319103116.png)
+![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319103116.png)
 
 ```bash
 sudo apt -y install curl dirmngr apt-transport-https lsb-release ca-certificates
@@ -32,14 +32,14 @@ echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/
 
 ```
 
-    ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319120412.png)
+![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319120412.png)
 
 ```bash
 sudo apt install -y mongodb
 
 ```
 
-    ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319120725.png)
+![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319120725.png)
 
 #### start the mongo server
 
@@ -47,9 +47,9 @@ sudo apt install -y mongodb
 sudo systemctl start mongodb.service
 ```
 
-    ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319120834.png)
-    ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319121349.png)
-    ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319155154.png)
+![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319120834.png)
+![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319121349.png)
+![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319155154.png)
 
 #### install other required dependencies
 

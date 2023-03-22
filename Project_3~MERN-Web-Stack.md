@@ -1,12 +1,12 @@
-#### backend config
+# backend config
 
-#### updating and upgrading the machine
+## updating and upgrading the machine
 
 `sudo apt update && sudo apt upgrade`
 ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230317211824.png)
 ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230317211905.png)
 
-#### get NodeJS from ubuntu repo
+### get NodeJS from ubuntu repo
 
 `curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -`
 
@@ -141,7 +141,7 @@ module.exports = router;
 
 #### running dev script using concurrently
 
-      ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319060408.png)
+![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319060408.png)
 
 ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319060738.png)
 ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319061045.png)
@@ -158,6 +158,6 @@ module.exports = router;
 
 ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319095420.png)
 
-#### data from mongodb\####
+#### data from mongodb
 
 ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319095834.png)

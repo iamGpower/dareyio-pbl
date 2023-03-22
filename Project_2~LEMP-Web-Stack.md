@@ -1,6 +1,8 @@
+# Lemp Stack Implementation
+
 #### install Ngnix Web Server
 
-#### \####`sudo apt update && sudo apt install nginx`
+`sudo apt update && sudo apt install nginx`
 
 ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230317150726.png)
 
@@ -28,7 +30,7 @@
 
 #### install MYSQL Database Server
 
-#### \####`sudo apt install mysql-server`
+`sudo apt install mysql-server`
 
 ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230317100511.png)
 
@@ -36,7 +38,7 @@
 
 ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230317100804.png)
 
-#### create a root password for mysql using `ALTER USER 'root'@'localhost' IDENTIFITED WITH mysql_native_password BY '<my password>'` and `exit`
+- create a root password for mysql using `ALTER USER 'root'@'localhost' IDENTIFITED WITH mysql_native_password BY '<my password>'` and `exit`
 
 ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230317152944.png)
 
@@ -58,7 +60,7 @@
 
 #### configure NGINX to use PHP Processor
 
-#### create a directory at `/var/www/projectlemp` to serve as the root web directory using `projectlemp` as domain.
+create a directory at `/var/www/projectlemp` to serve as the root web directory using `projectlemp` as domain.
 
 `sudo mkdir /var/www/projectlemp`
 
@@ -66,7 +68,7 @@
 
 ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230317161246.png)
 
-#### create a new config file with the following configurations for Nginx's `sites-available` directory using vi text editor `sudo vi /etc/nginx/sites-available/projectlemp`
+create a new config file with the following configurations for Nginx's `sites-available` directory using vi text editor `sudo vi /etc/nginx/sites-available/projectlemp`
 
 ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230317162644.png)
 
