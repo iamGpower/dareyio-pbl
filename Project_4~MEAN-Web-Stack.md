@@ -1,4 +1,6 @@
-#### update and upgrade of machine
+# Mean Stack Implementation
+
+> update and upgrade of machine
 
 ```bash
 sudo apt update -y && sudo apt upgrade -y
@@ -20,7 +22,7 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319113335.png)
 ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319113545.png)
 
-#### installing MongoDB
+## Installing MongoDB
 
 ```bash
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 0C49F3730359A14518585931BC711F9BA15703C6
@@ -41,37 +43,40 @@ sudo apt install -y mongodb
 
 ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319120725.png)
 
-#### start the mongo server
+> start the MongoDB server
 
 ```bash
 sudo systemctl start mongodb.service
 ```
 
 ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319120834.png)
+
 ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319121349.png)
+
 ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319155154.png)
 
-#### install other required dependencies
+> install other required dependencies
 
 ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319155220.png)
+
 ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230319155425.png)
 
 ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230320043809.png)
 
-#### app tested on port 3300
+> app tested on port 3300 via browser client
 
 ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230320043444.png)
 
-#### app working on cli
+> app running on terminal console
 
 ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230320043706.png)
+___
+### Important point to note
 
-#### important point to note
-
-#### The app needed `NodeJS version 14` and above to run due to some unsupported newer syntax
+> The app needed `NodeJS version 14` and above to run due to some unsupported newer syntax
 
 ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230320044254.png)
 
-#### There are some mongoose function that no longer support call back and hence the need to use `async await` promised based syntax
+> There are some Mongoose function that no longer support call back and hence the need to use `async await` promised based syntax
 
 ![dareyio_pbl_screen grabs](./attachments/Pasted_image_20230320044158.png)
